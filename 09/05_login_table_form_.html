@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인 폼</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style-type: none;
+        }
+        body{
+            font-family: "맑은고딕", "돋움";
+            font-size: 12px;
+            color:444444;
+        }
+        #login_box{
+            width: 220px;
+            height: 120px;
+            border: solid 1px red;
+            border-radius: 15px;
+            margin: 10px 0 0 10px;
+            padding: 10px 0 0 15px;
+        }
+        h2{
+            font-family: "Arial";
+            margin-bottom: 10px;
+        }
+        #login_box_input{
+            width: 100px;
+            height: 18px;
+        }
+        #id_pass, #login_btn{
+            display:inline-block;
+            vertical-align:top;
+        }
+        #id_pass span{
+            display: inline-block;
+            width: 20px;
+        }
+        #pass{
+            margin-top: 3px;
+        }
+        #login_btn_button{
+            margin-left: 5px;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        #btns{
+            margin: 12px 0 0 0;
+            text-decoration: underline;
+        }
+        #btns li{
+            margin-left: 10px;
+            display: inline;
+        }
+        #text{
+            text-decoration: underline;
+        }
+        
+    </style>
+
+</head> 
+<body>
+    <form action="#">
+    <div id="login_box">
+        <h2>Member Login</h2>
+                <table>
+                    <tr id="line">
+                        <th>ID</th><input type="text">
+                    </tr>
+                    <tr id="line">
+                        <th>pass <input type="text"></th>
+                    </tr>
+                    <tr id="text">
+                        <th>회원가입</th><th>아이디/비밀번호 찾기</th>
+                    </tr>
+                    
+        </table>   <!--login_box-->
+    </div>
+    
+
+    </form>
+    
+    
+</body>
+</html>

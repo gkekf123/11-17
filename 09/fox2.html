@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fox</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        position: absolute;
+        top: 20%;
+        margin: 40px;
+      }
+      #innerdiv1 {
+        float: left;
+        width: 350px;
+        border: solid 2px lightgrey;
+        margin: 15px;
+        margin-left: 30px;
+        margin-top: 20px;
+        border-radius: 20px;
+        background-color: white;
+      }
+      #innerdiv2 {
+        float: left;
+        width: 350px;
+        border: solid 2px skyblue;
+        margin: 15px;
+        margin-top: 20px;
+        border-radius: 20px;
+        background-color: white;
+      }
+      #outdiv {
+        background-color: rgb(234, 232, 240);
+        width: 1180px;
+        height: 250px;
+      }
+      img {
+        width: 150px;
+        height: 200px;
+      }
+      table,
+      th,
+      td,
+      tr {
+        /*border: solid 1px black;*/
+        table-layout: fixed;
+      }
+      #bigb {
+        font-family: "맑은 고딕";
+        font-weight: bolder;
+        font-size: 20px;
+        padding-right: 18px;
+        vertical-align: bottom;
+      }
+      #small {
+        vertical-align: top;
+        padding-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="outdiv">
+      <div id="innerdiv1">
+        <table>
+          <tr>
+            <td rowspan="2"><img src="img/fox-in-suit.png" /></td>
+            <td id="bigb">모든 웹사이트를 누가 호스팅하는지 찾으십시오</td>
+          </tr>
+          <tr>
+            <td id="small">
+              웹사이트의 URL을 입력하여 어떤 호스팅 서비스를 사용하는지
+              알아보십시오
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="innerdiv2">
+        <table>
+          <tr>
+            <td rowspan="2"><img src="img/fox-with-horn.png" /></td>
+            <td id="bigb" style="height: 80px">시장 점유율 2021</td>
+          </tr>
+          <tr>
+            <td id="small">
+              국가별로 나뉜 각 호스팅 회사의 2021 시장 점유율을 살펴보십시오
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="innerdiv2">
+        <table>
+          <tr>
+            <td rowspan="2">
+              <img src="img/fox-with-server.png" />
+            </td>
+            <td id="bigb">웹 호스팅의 일대일 비교</td>
+          </tr>
+          <tr>
+            <td id="small">
+              3개까지의 웹 호스팅 회사를 간단히 비교하고 어느 것이 더 나은지
+              보십시오
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
